@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="linux," />
 
 
 
@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="# ls -al -rwxrwxrwx root root 4096 2020.10.28 text.txt # chgrp ppdy text.txt : 改变所属的群组 # chown ppdy:ppdy text.txt : 改变文件拥有者 # chmod 777 text.txt : 改变权限    Linux的每个文件中，可分别给予使用者、群组与其他人三种身份个别的 rwx 权限">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ny_site">
-<meta property="og:url" content="http://example.com/2020/11/02/ny-site/index.html">
+<meta property="og:title" content="文件权限概念">
+<meta property="og:url" content="http://example.com/2020/10/28/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E6%A6%82%E5%BF%B5/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="# ls -al -rwxrwxrwx root root 4096 2020.10.28 text.txt # chgrp ppdy text.txt : 改变所属的群组 # chown ppdy:ppdy text.txt : 改变文件拥有者 # chmod 777 text.txt : 改变权限    Linux的每个文件中，可分别给予使用者、群组与其他人三种身份个别的 rwx 权限">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-11-02T09:01:57.000Z">
-<meta property="article:modified_time" content="2020-11-02T09:01:57.758Z">
+<meta property="article:published_time" content="2020-10-28T11:56:10.000Z">
+<meta property="article:modified_time" content="2020-11-02T10:51:14.946Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="linux">
 <meta name="twitter:card" content="summary">
 
 
@@ -117,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/2020/11/02/ny-site/"/>
+  <link rel="canonical" href="http://example.com/2020/10/28/文件权限概念/"/>
 
 
 
 
 
-  <title>ny_site | Hexo</title>
+  <title>文件权限概念 | Hexo</title>
   
 
 
@@ -230,7 +233,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/02/ny-site/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/28/%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E6%A6%82%E5%BF%B5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -247,7 +250,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">ny_site</h1>
+          <h1 class="post-title" itemprop="name headline">文件权限概念</h1>
         
 
         <div class="post-meta">
@@ -259,8 +262,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-11-02T17:01:57+08:00">
-                2020-11-02
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-10-28T19:56:10+08:00">
+                2020-10-28
               </time>
             
 
@@ -269,6 +272,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -297,7 +322,14 @@
       
 
       
-        
+        <p># ls -al -rwxrwxrwx root root 4096 2020.10.28 text.txt <strong># chgrp ppdy text.txt :</strong> 改变所属的群组 <strong># chown ppdy:ppdy text.txt :</strong> 改变文件拥有者 <strong># chmod 777 text.txt :</strong> 改变权限</p>
+<ul>
+<li><p>  <strong>Linux的每个文件中，可分别给予使用者、群组与其他人三种身份个别的 rwx 权限</strong></p>
+</li>
+<li><p>  <strong>对于目录，进入目录须有x（access directory）权限</strong></p>
+</li>
+</ul>
+
       
     </div>
     
@@ -312,6 +344,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/linux/" rel="tag"># linux</a>
+          
+        </div>
+      
 
       
       
@@ -321,8 +359,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/11/02/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
+              <a href="/2020/10/28/%E6%A0%88/" rel="next" title="栈">
+                <i class="fa fa-chevron-left"></i> 栈
               </a>
             
           </div>
@@ -330,6 +368,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/11/01/%E8%AE%B0%E4%B8%80%E6%AC%A1%E8%A1%80%E4%BA%8F/" rel="prev" title="记一次血亏">
+                记一次血亏 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
